@@ -3,7 +3,7 @@
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import HomeScreen from '../screens/HomeScreen';
 
-const AppNavigator = createStackNavigator({
+const AppNavigatorApp = createStackNavigator({
     Home: {
         screen: HomeScreen,
         navigationOptions: ({ navigation }) => ({
@@ -18,4 +18,5 @@ const AppNavigator = createStackNavigator({
     }
 });
 
-export default createAppContainer(AppNavigator);
+// export default AppNavigatorApp
+export default createAppContainer(AppNavigatorApp);

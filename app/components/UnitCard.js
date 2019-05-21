@@ -43,7 +43,7 @@ const UnitCard = ({ imageUri, title, shortDescription }) => {
         percentageText: {
             color: '#fff',
             fontWeight: '500',
-            borderRadius: 3,
+            borderRadius: 4,
             backgroundColor: '#001256',
             padding: 2,
             alignSelf: 'flex-end'
