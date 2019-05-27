@@ -31,7 +31,7 @@ const UnitCard = ({ imageUri, title, shortDescription }) => {
         imageStyle: {
             flex: 1,
             width: Layout.window.width * .45,
-            borderRadius: 10
+            borderRadius: 15
         },
 
         titleStyle: {

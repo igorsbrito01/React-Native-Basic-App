@@ -6,7 +6,6 @@ import {
     StatusBar
 } from 'react-native';
 
-import ModalFilterPicker from 'react-native-modal-filter-picker'
 import Swiper from 'react-native-swiper';
 import Layout from '../constants/Layout';
 import { SwipperUnit, UnitCard } from '../components';
@@ -156,7 +155,7 @@ const styles = StyleSheet.create({
     },
     viewRow: {
         flexDirection: 'row',
-        marginTop: 17,
+        // marginTop: 10,
         height: Layout.window.height * .25
     }
 })
